@@ -33,7 +33,12 @@ Building this
 
 If you are brave enough of course! I used Linux and SGDK 1.34. In particular I used this repo:
 https://github.com/kubilus1/gendev which at the time, was at 1.34 (now seems to be updated to 1.40).
-Once that is 
+Once that is installed and ready to be used, one just needs to invoke the provided Makefile, which
+will build and generate a binary image that can be used in emulators or burned to a cart.
+
+`make -f $GENDEV/sgdk/mkfiles/makefile.gen all`
+
+Where GENDEV points to the SDK directory, usually /opt/gendev
 
 Known bugs
 ----------
