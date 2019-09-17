@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MEGADRIVE-SLOT-PACKAGE">
+<description>PCB connector for the MD cart</description>
+<smd name="FRONT1" x="-39.37" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT2" x="-36.83" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT3" x="-34.29" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT4" x="-31.75" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT5" x="-29.21" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT6" x="-26.67" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT7" x="-24.13" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT8" x="-21.59" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT9" x="-19.05" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT10" x="-16.51" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT11" x="-13.97" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT12" x="-11.43" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT13" x="-8.89" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT14" x="-6.35" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT15" x="-3.81" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT16" x="-1.27" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT17" x="1.27" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT18" x="3.81" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT19" x="6.35" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT20" x="8.89" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT21" x="11.43" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT22" x="13.97" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT23" x="16.51" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT24" x="19.05" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT25" x="21.59" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT26" x="24.13" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT27" x="26.67" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT28" x="29.21" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT29" x="31.75" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT30" x="34.29" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT31" x="36.83" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="FRONT32" x="39.37" y="5.5245" dx="9.779" dy="1.651" layer="1" rot="R90"/>
+<smd name="BACK1" x="-39.37" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK2" x="-36.83" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK3" x="-34.29" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK4" x="-31.75" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK5" x="-29.21" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK6" x="-26.67" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK7" x="-24.13" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK8" x="-21.59" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK9" x="-19.05" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK10" x="-16.51" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK11" x="-13.97" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK12" x="-11.43" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK13" x="-8.89" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK14" x="-6.35" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK15" x="-3.81" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK16" x="-1.27" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK17" x="1.27" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK18" x="3.81" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK19" x="6.35" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK20" x="8.89" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK21" x="11.43" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK22" x="13.97" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK23" x="16.51" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK24" x="19.05" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK25" x="21.59" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK26" x="24.13" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK27" x="26.67" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK28" x="29.21" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK29" x="31.75" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK30" x="34.29" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK31" x="36.83" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+<smd name="BACK32" x="39.37" y="5.5245" dx="9.779" dy="1.651" layer="16" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MEGADRIVE-CART-SYM">
+<pin name="L_AUDIO" x="-45.72" y="-5.08" length="middle" rot="R90"/>
+<pin name="H_RESET" x="-43.18" y="-5.08" length="middle" rot="R90"/>
+<pin name="R_AUDIO" x="-40.64" y="-5.08" length="middle" rot="R90"/>
+<pin name="A09" x="-38.1" y="-5.08" length="middle" rot="R90"/>
+<pin name="A10" x="-35.56" y="-5.08" length="middle" rot="R90"/>
+<pin name="A18" x="-33.02" y="-5.08" length="middle" rot="R90"/>
+<pin name="A19" x="-30.48" y="-5.08" length="middle" rot="R90"/>
+<pin name="A20" x="-27.94" y="-5.08" length="middle" rot="R90"/>
+<pin name="A21" x="-25.4" y="-5.08" length="middle" rot="R90"/>
+<pin name="A22" x="-22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="A23" x="-20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="VIDEO" x="-17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="VSYNC" x="-15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="HSYNC" x="-12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="HS_CLK" x="-10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="C_OE" x="-7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="C_CE" x="-5.08" y="-5.08" length="middle" rot="R90"/>
+<pin name="A_STROBE" x="-2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="CPUCLOCK" x="0" y="-5.08" length="middle" rot="R90"/>
+<pin name="DTACK" x="2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="CAS2" x="5.08" y="-5.08" length="middle" rot="R90"/>
+<pin name="D15" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="D14" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="D13" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="D12" x="15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="LO_MEM" x="17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="RESET" x="20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="LOW_WRITE" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="HIGH_WRITE" x="25.4" y="-5.08" length="middle" rot="R90"/>
+<pin name="S_RESET" x="27.94" y="-5.08" length="middle" rot="R90"/>
+<pin name="TIME" x="30.48" y="-5.08" length="middle" rot="R90"/>
+<pin name="CART_IN" x="33.02" y="-5.08" length="middle" rot="R90"/>
+<pin name="GND" x="-45.72" y="43.18" length="middle" rot="R270"/>
+<pin name="VCC5V" x="-43.18" y="43.18" length="middle" rot="R270"/>
+<pin name="A08" x="-40.64" y="43.18" length="middle" rot="R270"/>
+<pin name="A11" x="-38.1" y="43.18" length="middle" rot="R270"/>
+<pin name="A07" x="-35.56" y="43.18" length="middle" rot="R270"/>
+<pin name="A12" x="-33.02" y="43.18" length="middle" rot="R270"/>
+<pin name="A06" x="-30.48" y="43.18" length="middle" rot="R270"/>
+<pin name="A13" x="-27.94" y="43.18" length="middle" rot="R270"/>
+<pin name="A05" x="-25.4" y="43.18" length="middle" rot="R270"/>
+<pin name="A14" x="-22.86" y="43.18" length="middle" rot="R270"/>
+<pin name="A04" x="-20.32" y="43.18" length="middle" rot="R270"/>
+<pin name="A15" x="-17.78" y="43.18" length="middle" rot="R270"/>
+<pin name="A03" x="-15.24" y="43.18" length="middle" rot="R270"/>
+<pin name="A16" x="-12.7" y="43.18" length="middle" rot="R270"/>
+<pin name="A02" x="-10.16" y="43.18" length="middle" rot="R270"/>
+<pin name="A17" x="-7.62" y="43.18" length="middle" rot="R270"/>
+<pin name="A01" x="-5.08" y="43.18" length="middle" rot="R270"/>
+<pin name="GND2" x="-2.54" y="43.18" length="middle" rot="R270"/>
+<pin name="D07" x="0" y="43.18" length="middle" rot="R270"/>
+<pin name="D00" x="2.54" y="43.18" length="middle" rot="R270"/>
+<pin name="D08" x="5.08" y="43.18" length="middle" rot="R270"/>
+<pin name="D06" x="7.62" y="43.18" length="middle" rot="R270"/>
+<pin name="D01" x="10.16" y="43.18" length="middle" rot="R270"/>
+<pin name="D09" x="12.7" y="43.18" length="middle" rot="R270"/>
+<pin name="D05" x="15.24" y="43.18" length="middle" rot="R270"/>
+<pin name="D02" x="17.78" y="43.18" length="middle" rot="R270"/>
+<pin name="D10" x="20.32" y="43.18" length="middle" rot="R270"/>
+<pin name="D04" x="22.86" y="43.18" length="middle" rot="R270"/>
+<pin name="D03" x="25.4" y="43.18" length="middle" rot="R270"/>
+<pin name="D11" x="27.94" y="43.18" length="middle" rot="R270"/>
+<pin name="VCC5V_2" x="30.48" y="43.18" length="middle" rot="R270"/>
+<pin name="GND3" x="33.02" y="43.18" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MEGADRIVE-CART" prefix="MD">
+<description>Megadrive cartridge interface that fits in a slot</description>
+<gates>
+<gate name="G$1" symbol="MEGADRIVE-CART-SYM" x="7.62" y="-20.32"/>
+</gates>
+<devices>
+<device name="" package="MEGADRIVE-SLOT-PACKAGE">
+<connects>
+<connect gate="G$1" pin="A01" pad="BACK17"/>
+<connect gate="G$1" pin="A02" pad="BACK15"/>
+<connect gate="G$1" pin="A03" pad="BACK13"/>
+<connect gate="G$1" pin="A04" pad="BACK11"/>
+<connect gate="G$1" pin="A05" pad="BACK9"/>
+<connect gate="G$1" pin="A06" pad="BACK7"/>
+<connect gate="G$1" pin="A07" pad="BACK5"/>
+<connect gate="G$1" pin="A08" pad="BACK3"/>
+<connect gate="G$1" pin="A09" pad="FRONT4"/>
+<connect gate="G$1" pin="A10" pad="FRONT5"/>
+<connect gate="G$1" pin="A11" pad="BACK4"/>
+<connect gate="G$1" pin="A12" pad="BACK6"/>
+<connect gate="G$1" pin="A13" pad="BACK8"/>
+<connect gate="G$1" pin="A14" pad="BACK10"/>
+<connect gate="G$1" pin="A15" pad="BACK12"/>
+<connect gate="G$1" pin="A16" pad="BACK14"/>
+<connect gate="G$1" pin="A17" pad="BACK16"/>
+<connect gate="G$1" pin="A18" pad="FRONT6"/>
+<connect gate="G$1" pin="A19" pad="FRONT7"/>
+<connect gate="G$1" pin="A20" pad="FRONT8"/>
+<connect gate="G$1" pin="A21" pad="FRONT9"/>
+<connect gate="G$1" pin="A22" pad="FRONT10"/>
+<connect gate="G$1" pin="A23" pad="FRONT11"/>
+<connect gate="G$1" pin="A_STROBE" pad="FRONT18"/>
+<connect gate="G$1" pin="CART_IN" pad="FRONT32"/>
+<connect gate="G$1" pin="CAS2" pad="FRONT21"/>
+<connect gate="G$1" pin="CPUCLOCK" pad="FRONT19"/>
+<connect gate="G$1" pin="C_CE" pad="FRONT17"/>
+<connect gate="G$1" pin="C_OE" pad="FRONT16"/>
+<connect gate="G$1" pin="D00" pad="BACK20"/>
+<connect gate="G$1" pin="D01" pad="BACK23"/>
+<connect gate="G$1" pin="D02" pad="BACK26"/>
+<connect gate="G$1" pin="D03" pad="BACK29"/>
+<connect gate="G$1" pin="D04" pad="BACK28"/>
+<connect gate="G$1" pin="D05" pad="BACK25"/>
+<connect gate="G$1" pin="D06" pad="BACK22"/>
+<connect gate="G$1" pin="D07" pad="BACK19"/>
+<connect gate="G$1" pin="D08" pad="BACK21"/>
+<connect gate="G$1" pin="D09" pad="BACK24"/>
+<connect gate="G$1" pin="D10" pad="BACK27"/>
+<connect gate="G$1" pin="D11" pad="BACK30"/>
+<connect gate="G$1" pin="D12" pad="FRONT25"/>
+<connect gate="G$1" pin="D13" pad="FRONT24"/>
+<connect gate="G$1" pin="D14" pad="FRONT23"/>
+<connect gate="G$1" pin="D15" pad="FRONT22"/>
+<connect gate="G$1" pin="DTACK" pad="FRONT20"/>
+<connect gate="G$1" pin="GND" pad="BACK1"/>
+<connect gate="G$1" pin="GND2" pad="BACK18"/>
+<connect gate="G$1" pin="GND3" pad="BACK32"/>
+<connect gate="G$1" pin="HIGH_WRITE" pad="FRONT29"/>
+<connect gate="G$1" pin="HSYNC" pad="FRONT14"/>
+<connect gate="G$1" pin="HS_CLK" pad="FRONT15"/>
+<connect gate="G$1" pin="H_RESET" pad="FRONT2"/>
+<connect gate="G$1" pin="LOW_WRITE" pad="FRONT28"/>
+<connect gate="G$1" pin="LO_MEM" pad="FRONT26"/>
+<connect gate="G$1" pin="L_AUDIO" pad="FRONT1"/>
+<connect gate="G$1" pin="RESET" pad="FRONT27"/>
+<connect gate="G$1" pin="R_AUDIO" pad="FRONT3"/>
+<connect gate="G$1" pin="S_RESET" pad="FRONT30"/>
+<connect gate="G$1" pin="TIME" pad="FRONT31"/>
+<connect gate="G$1" pin="VCC5V" pad="BACK2"/>
+<connect gate="G$1" pin="VCC5V_2" pad="BACK31"/>
+<connect gate="G$1" pin="VIDEO" pad="FRONT12"/>
+<connect gate="G$1" pin="VSYNC" pad="FRONT13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

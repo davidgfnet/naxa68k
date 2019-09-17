@@ -1,0 +1,59 @@
+
+Any modifications/remixes/changes I might have done to the songs here I release
+under the same license, as required per CC license.
+
+intro.dmf
+ title: Sled Storm : Widdows Peak
+ author: TristEndo
+ Source: http://battleofthebits.org/arena/Entry/Sled+Storm+_+Widdows+Peak/27410/
+ License: Creative Commons BY/NC/SA
+ Remix: by davidgfnet, to better fit the intro.
+
+shooter.dmf
+ title: Hyperspace Adventurer 
+ author: LukeMcQueen
+ Source: http://battleofthebits.org/arena/Entry/Hyperspace+Adventurer/21638/
+ License: Creative Commons BY/NC/SA
+ Remix: by davidgfnet, to port it to Genesis YM2612
+
+shooter2.dmf
+ title: Battle of Kenshin Stronghold
+ author: sc00p
+ Source: http://battleofthebits.org/arena/Entry/Battle+of+Kenshin+Stronghold/31641/
+ License: Creative Commons BY/NC/SA
+ Remix: by davidgfnet, forgot what I edited really
+
+arcade.dmf:
+ title: WTF it really works (.dmf)
+ author: pedipanol
+ Source: http://battleofthebits.org/arena/Entry/wtf+it+really+works.dmf/20747/
+ License: Creative Commons BY/NC/SA
+ Remix: by davidgfnet, to extend it and make it more monotonous.
+
+bomberman.dmf:
+ title: Sundown Station
+ author: kgb525
+ Source: http://battleofthebits.org/arena/Entry/Sundown+Station/28003/
+ License: Creative Commons BY/NC/SA
+ Remix: by davidgfnet, change tempo a bit to better fit the level.
+
+cave.dmf:
+ title: Sprigget
+ author: passarbye
+ Source: http://battleofthebits.org/arena/Entry/Sprigget/21478/
+ License: Creative Commons BY/NC/SA
+ Remix: by davidgfnet, changed loop/ending, minor tweaks.
+
+credits.vgm:
+ title: Coda-Cola Zone
+ author: Jredd
+ Source: http://battleofthebits.org/arena/Entry/Coda-Cola+Zone/26492/
+ License: Creative Commons BY/NC/SA
+
+board.vgm:
+ title: we are the aliens
+ author: Xaser
+ Source: http://battleofthebits.org/arena/Entry/we+are+the+aliens/13676/
+ License: Creative Commons BY/NC/SA
+ Remix: by davidgfnet, extract subset and remove huge PCM tracks
+
